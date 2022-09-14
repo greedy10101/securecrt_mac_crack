@@ -27,7 +27,7 @@ sub usage {
 
     exit;
 }
-&usage() if ! defined @ARGV ;
+&usage() if ! @ARGV ;
 
 
 my $file = $ARGV[0];
